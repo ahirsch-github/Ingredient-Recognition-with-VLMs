@@ -1,0 +1,52 @@
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Configure stats pid to 7476
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Loading settings from C:\Users\sbene\.config\wandb\settings
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Loading settings from d:\Dev\Projects D\Anja\MA\wandb\settings
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_init.py:_log_setup():520] Logging user logs to d:\Dev\Projects D\Anja\MA\wandb\run-20240508_172857-g0ma106o\logs\debug.log
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_init.py:_log_setup():521] Logging internal logs to d:\Dev\Projects D\Anja\MA\wandb\run-20240508_172857-g0ma106o\logs\debug-internal.log
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000000D5F2DB10>
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_init.py:init():560] calling init triggers
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'model': 'CLIP', 'batch_size': 8, 'n_epochs': 10, 'lr': 0.0001}
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_init.py:init():610] starting backend
+2024-05-08 17:28:57,775 INFO    MainThread:7476 [wandb_init.py:init():614] setting up manager
+2024-05-08 17:28:57,791 INFO    MainThread:7476 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-05-08 17:28:57,791 INFO    MainThread:7476 [wandb_init.py:init():622] backend started and connected
+2024-05-08 17:28:57,807 INFO    MainThread:7476 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-05-08 17:28:57,807 INFO    MainThread:7476 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-05-08 17:28:57,807 INFO    MainThread:7476 [wandb_init.py:init():711] updated telemetry
+2024-05-08 17:28:58,105 INFO    MainThread:7476 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-08 17:28:58,468 ERROR   MainThread:7476 [wandb_init.py:init():770] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-05-08 17:28:58,468 ERROR   MainThread:7476 [wandb_init.py:init():1174] error in wandb.init()
+Traceback (most recent call last):
+  File "d:\Dev\miniconda\envs\anja-ma\lib\site-packages\wandb\sdk\wandb_init.py", line 1164, in init
+    return wi.init()
+  File "d:\Dev\miniconda\envs\anja-ma\lib\site-packages\wandb\sdk\wandb_init.py", line 776, in init
+    raise error
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_settings.py:_apply_login():1895] Applying login settings: {}
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Configure stats pid to 7476
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Loading settings from C:\Users\sbene\.config\wandb\settings
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Loading settings from d:\Dev\Projects D\Anja\MA\wandb\settings
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_init.py:_log_setup():520] Logging user logs to d:\Dev\Projects D\Anja\MA\wandb\run-20240508_173008-qfuklnqt\logs\debug.log
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_init.py:_log_setup():521] Logging internal logs to d:\Dev\Projects D\Anja\MA\wandb\run-20240508_173008-qfuklnqt\logs\debug-internal.log
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_init.py:init():560] calling init triggers
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'model': 'CLIP', 'batch_size': 8, 'n_epochs': 10, 'lr': 0.0001}
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_init.py:init():610] starting backend
+2024-05-08 17:30:08,765 INFO    MainThread:7476 [wandb_init.py:init():614] setting up manager
+2024-05-08 17:30:08,781 INFO    MainThread:7476 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-05-08 17:30:08,781 INFO    MainThread:7476 [wandb_init.py:init():622] backend started and connected
+2024-05-08 17:30:08,805 INFO    MainThread:7476 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-05-08 17:30:08,805 INFO    MainThread:7476 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-05-08 17:30:08,805 INFO    MainThread:7476 [wandb_init.py:init():711] updated telemetry
+2024-05-08 17:30:08,844 INFO    MainThread:7476 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
