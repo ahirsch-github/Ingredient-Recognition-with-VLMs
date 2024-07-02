@@ -3,3 +3,4 @@ wandb/
 google-cloud-sdk/
 data/
 checkpoints/
+big_vision_repo/
