@@ -4,3 +4,5 @@ google-cloud-sdk/
 data/
 checkpoints/
 big_vision_repo/
+food-101/
+ingredients-101/
