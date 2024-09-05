@@ -7,6 +7,6 @@ One of the main goals of this thesis is to evaluate the effectiveness of fine-tu
 The implementation can be found in the notebook `fine_tuning_paligemma.ipynb`.
 
 ## Prompting Vision-Language Model
-Another approach is the prompting of a Vision-Language model. This approach takes advantage of the versatility of these models, which can be applied to new tasks even without specific training due to their broad knowledge base. In this context, both zero-shot prompting techniques and few-shot prompting are evaluated as potential methods for ingredient recognition. For this purpose, the Vision-Language model GPT-4o mini is used.
+Another approach is the prompting of a Vision-Language model. This approach takes advantage of the versatility of these models, which can be applied to new tasks even without specific training due to their broad knowledge base. In this context, both zero-shot prompting techniques and few-shot prompting are evaluated as potential methods for ingredient recognition. For this purpose, the Vision-Language model [GPT-4o mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) is used.
 
 Results and implementation are presented in the notebook `prompting_gpt4o.ipynb`.
